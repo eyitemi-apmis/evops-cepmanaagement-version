@@ -1,0 +1,83 @@
+.sect-wrap{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sect-tbl{
+    /* max-height: 270px;
+    overflow-y: auto;  */
+    margin-bottom: 10px; 
+}
+.border-liners{
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+.sect-toplinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;  
+    margin-bottom: 10px; 
+}
+.sect-links{
+    display: flex;
+}
+.sect-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #777;
+}
+.facility-data {
+    margin-top: 20px;
+}
+.card-img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+.card-img-wrap img{
+    width: 100%;
+}
+.x-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.by-2{
+    width: 49%; 
+}
+.summary-sect {
+    width: 100%;
+    padding: 10px;
+}
+.summary-item {
+    display: flex;
+}
+.summary-label {
+    width: 136px;
+    color: #333;
+    font-style: italic;
+}
+.summary-val {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #ff2500;
+}
+.name{
+    margin-top: 10px !important;
+} 
+.status-btn{
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+}
+.card{
+    max-height: 410px;
+    overflow-y: auto; 
+}
