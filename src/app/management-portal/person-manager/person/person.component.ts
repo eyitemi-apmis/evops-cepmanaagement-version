@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 declare var $;
 
 @Component({
@@ -6,7 +6,7 @@ declare var $;
   templateUrl: './person.component.html',
   styleUrls: ['./person.component.css']
 })
-export class PersonComponent implements OnInit {
+export class PersonComponent implements OnInit  {
 
   user_type = 'Admin';
   //or user_type = 'User';
@@ -16,7 +16,7 @@ export class PersonComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
   onSearch(){
     $('.ui.search').search({ 
       apiSettings: {
