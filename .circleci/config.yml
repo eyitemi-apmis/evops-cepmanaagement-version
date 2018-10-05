@@ -36,7 +36,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run all tests!
-      - run: yarn ng build
+      - run: yarn ng build --host 0.0.0.0 --disableHostCheck true
       - run: yarn ng test --single-run --no-progress
       - run:
           command: |
