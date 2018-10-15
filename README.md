@@ -73,6 +73,20 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Work in progress.
 
+
+Build with Docker
+
+`cd evops-cepmanagement-version`
+
+Then run the command to build a docker image
+
+`docker build -t cepmanagement .`
+
+And then this command to run/spin up a container
+`docker run --rm -it -p 4200:4200 cepmanagement`
+
+
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
